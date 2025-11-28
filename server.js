@@ -20,6 +20,6 @@ app.use("/api/tiles", tileRoutes);
 
 const PORT = process.env.PORT
 app.listen(PORT, () => {
-    console.log(`server running`);
+    console.log(`server running on port ${PORT}`);
     
 })
